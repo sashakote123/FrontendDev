@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('/css/nullstyle.css');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 14px;
+}
+
+.none{
+    display: none;
+}
+
+
+.container{
+    max-width: 1130px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.header{
+    padding-top: 46px;
+    background-color: #f1f1f1;
+    
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    margin-bottom: 76px;
+}
+.logo {
+    position: relative;
+    padding-right: 12px;
+    padding-bottom: 3px;
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+}
+.logo::after{
+    position: absolute;
+    right: 0px;
+    bottom: 1px;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #FDA300;
+    border-radius: 50%;
+}
+.nav {
+}
+
+.nav-button{
+    display: none;
+}
+
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+
+.nav-item {
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link.active{
+    color: #606060;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-content {
+    max-width: 500px;
+    margin-top: 124px;
+}
+.header-content p {
+    line-height: 2;
+}
+.header-img {
+}
+
+.header-title {
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+}
+.header-text {
+
+}
+
+/*service*/
+
+.services {
+    padding: 90px 0;
+}
+.services-row {
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
+
+.service-card{
+    flex: 1 1 0;
+    min-width: 315px;
+}
+
+.service-card-img {
+    margin-bottom: 30px;
+}
+.service-card-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.service-card p {
+    line-height: 2;
+}
+
+
+/*portfolio*/
+
+.portfolio {
+    padding: 90px 0;
+    background-color: #f1f1f1;
+}
+
+.portfolio-title {
+    margin-bottom: 70px;
+    text-align: center;
+}
+.title-1 {
+    font-size: 34px;
+    font-weight: 600;
+}
+.project {
+    text-align: center;
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+
+.progect-img {
+    margin-bottom: 40px;
+}
+.project-title {
+    font-size: 18px;
+
+}
+.project-title a {
+    color: black;
+    text-decoration: underline;
+    
+}
+
+
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts-title {
+    margin-bottom: 40px;
+}
+.title-1 {
+}
+.contacts-content {
+    font-size: 18px;
+    max-width: 480px;
+    margin: 0 auto 40px;
+}
+.contacts-btn {
+    margin-bottom: 60px;
+
+}
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    border-radius: 30px;
+    background-color: #070707;
+
+    font-size: 18px;
+    color: white;
+}
+
+.btn:hover, .btn:focus{
+    background-color: #323232;
+}
+.btn:active{
+    position: relative;
+    top: 1px;
+    background-color: black;
+}
+
+
+.contacts-social {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+}
+.contacts-footer {
+    color: #828282;
+    line-height: 1.3;
+}

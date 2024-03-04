@@ -1,0 +1,168 @@
+@media(max-width: 1380px){
+    .content-text::before {
+        width: 140px;
+        height: 140px;
+        font-size: 140px;
+    }
+
+    .content-title {
+        margin-bottom: 27px;
+        font-family: 'Chronicle Display', sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 48px;
+        line-height: 1.2;
+        color: #fff;
+    }
+
+    .content-text{
+        max-width: 50%;
+        padding-left: 50px;
+    }
+
+    .contetn-img{
+        width: 45%;
+    }
+}
+
+@media(max-width: 1000px){
+    .hero-title{
+        font-size: 68px;
+    }
+
+    .footer-nav-wrapper {
+        display: flex;
+        gap: 100px;
+    }
+
+}
+
+@media(max-width: 900px){
+
+    .footer-row{
+        flex-direction: column-reverse;
+    }
+
+    .footer-nav-wrapper {
+        margin-bottom: 80px;
+    }
+
+    .footer-copy-copyrights {
+
+        margin-top: 20px;
+    }
+
+}
+
+
+@media(max-width: 800px){
+
+    .hero-scroll{
+        position: fixed;
+        right: 100%;
+    }
+
+    .header{
+        margin-bottom: 200px;
+    }
+
+    .content-title{
+        font-size: 44px;
+    }
+}
+
+@media(max-width: 720px){
+
+
+    .content{
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+    }
+
+    .content-text{
+        max-width: 100%;
+
+    }
+
+    .contetn-img{
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 75px;
+    }
+
+    .content-revese{
+        flex-direction: column;
+    }
+
+
+
+}
+
+
+@media(max-width: 600px){
+    .nav, .account{
+        display: none;
+
+    }
+
+    .burger-button{
+        display: block;
+    }
+
+    .mobile-nav-active{
+        /* display: flex; */
+        right: 0;
+    }
+
+    .hero-title{
+        font-size: 48px;
+    }
+
+
+    .hero-category {
+        font-size: 14px;
+        padding-left: 62px;
+    }
+    
+    .hero-category::before {
+        width: 42px;
+    }
+    
+    .hero{
+        margin-top: 70px;
+        transition: 0.3s all ease-in; 
+    }
+
+    .hero-hide{
+        
+        left: 100% !important;
+
+    }
+
+    .hero-category{
+        margin-bottom: 16px;
+    }
+
+}
+
+
+@media(max-width: 500px){
+    .footer-nav-wrapper{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer-nav li {
+
+        margin-top: 0;
+    }
+
+    .footer-nav-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .footer-copy-copyrights {
+
+        margin-top: 20px;
+    }
+}
